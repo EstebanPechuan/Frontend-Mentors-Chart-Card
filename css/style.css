@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: hsl(27deg, 66%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container__header {
+  background: hsl(10deg, 79%, 65%);
+  border-radius: 10px;
+  color: hsl(33deg, 100%, 98%);
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container__header__text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.container__header__text p {
+  font-size: 9px;
+}
+.container__header__text h3 {
+  font-weight: 700;
+}
+.container__header__circles {
+  display: flex;
+  align-items: center;
+}
+.container__header__circles span {
+  width: 24px;
+  aspect-ratio: 1;
+  display: block;
+  border-radius: 50%;
+  margin-left: -12px;
+}
+.container__header__circles span:nth-child(1) {
+  border: 1px solid #fff;
+  z-index: 10;
+}
+.container__header__circles span:nth-child(2) {
+  background: hsl(25deg, 47%, 15%);
+}
+.container__main {
+  background: hsl(33deg, 100%, 98%);
+  border-radius: 10px;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.container__main h1 {
+  font-weight: 700;
+  font-size: 18px;
+  color: hsl(25deg, 47%, 15%);
+}
+.container__main__graph {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+}
+.container__main hr {
+  color: hsl(27deg, 66%, 92%);
+  opacity: 0.2;
+}
+.container__day {
+  font-size: 9px;
+  color: hsl(28deg, 10%, 53%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.container__day__graph {
+  width: 30px;
+  height: 100px;
+  background: hsl(10deg, 79%, 65%);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.container__day__graph:hover, .container__day__graph--active {
+  background: hsl(186deg, 34%, 60%);
+}
+.container__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.container__footer__text h2 {
+  font-weight: 700;
+  color: hsl(25deg, 47%, 15%);
+}
+.container__footer__last {
+  text-align: right;
+}
+.container__footer__last h4 {
+  font-weight: 700;
+  font-size: 10px;
+  color: hsl(25deg, 47%, 15%);
+}
+.container__footer p {
+  color: hsl(28deg, 10%, 53%);
+  font-size: 9px;
+}
+
+.attribution {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 11px;
+  text-align: center;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+.attribution h1 {
+  display: inline;
+  font-size: 11px;
+  font-weight: normal;
+}
+
+/*# sourceMappingURL=style.css.map */
