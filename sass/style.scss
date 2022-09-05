@@ -29,6 +29,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    scale: 1.4;
 
     &__header {
         background: $soft-red;
