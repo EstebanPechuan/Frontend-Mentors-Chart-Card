@@ -19,7 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  scale: 1.4;
+  scale: 1.5;
 }
 .container__header {
   background: hsl(10deg, 79%, 65%);

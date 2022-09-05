@@ -16,6 +16,8 @@ function imprimirDatos(datos) {
         `
         graficos.innerHTML += div
     })
+    
+    document.getElementsByClassName('container__day__graph')[2].classList.add('container__day__graph--active')
 }
 
 function graphActive(el) {
